@@ -45,7 +45,7 @@ public class DayTest {
             int timeValidSpace = day.findSpace(appointment9);
         }
         catch (NoSpaceException e){
-            assertFalse(true);
+            fail();
         }
     }
 
@@ -75,9 +75,9 @@ public class DayTest {
                 day.makeAppointment(validatedTime, appointment9);
                 day.showAppointments();
             }catch(NoSpaceException e){
-                assertTrue(false);
+                fail();
             }catch (ArrayIndexOutOfBoundsException e){
-                assertTrue(false);
+                fail();
                 validatedTime = -1;
                 System.out.println(e);
             }
