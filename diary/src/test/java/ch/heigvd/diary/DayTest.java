@@ -53,7 +53,7 @@ public class DayTest {
     void FindValidSpaceError() {
         Day day = new Day(23);
 
-        Appointment appointment9 = new Appointment("Rdv 9h00", 8);
+        Appointment appointment9 = new Appointment("Rdv 9h00", 9);
 
         boolean validateTest4 = day.makeAppointment(9, appointment9);
         assertTrue(validateTest4);

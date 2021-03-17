@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8485e864-202e-43a7-b452-a881fd5cb847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/diary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DayTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -76,6 +77,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.heigvd.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.heigvd.diary" />
+      <option name="MAIN_CLASS_NAME" value="ch.heigvd.diary.DayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayTest.FindValidSpaceError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.heigvd.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.heigvd.diary" />
+      <option name="MAIN_CLASS_NAME" value="ch.heigvd.diary.DayTest" />
+      <option name="METHOD_NAME" value="FindValidSpaceError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DayTest" />
+        <item itemvalue="JUnit.DayTest.FindValidSpaceError" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616003209191</updated>
-      <workItem from="1616003211457" duration="1917000" />
+      <workItem from="1616003211457" duration="2910000" />
     </task>
     <servers />
   </component>
@@ -108,10 +146,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616003287751" />
+    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1616006040789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="451" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006040789" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616003220285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616003220285" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1616006086192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086192" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1616006086191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1616006086191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1616006086191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616006086818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086818" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616006086817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616006086817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616006086817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1616003486599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
