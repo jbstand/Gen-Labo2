@@ -33,7 +33,7 @@ public class DayTest {
         boolean validateTest4 = day.makeAppointment(8, appointment8);
         boolean validateTest5 = day.makeAppointment(18, appointment18);
 
-        assertFalse(validateTest4 && validateTest5);
+        assertFalse(validateTest4 || validateTest5);
     }
 
     @Test
