@@ -1,7 +1,7 @@
 package ch.heigvd.deuxentiers;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class DeuxEntiersTest {
     @Test
