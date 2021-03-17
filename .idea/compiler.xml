@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="diary" />
+        <module name="deuxentiers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="deuxentiers" target="11" />
       <module name="diary" target="8" />
     </bytecodeTargetLevel>
   </component>
