@@ -12,4 +12,8 @@ public class DeuxEntiers {
     public int divise() {
         return (entier1 / entier2);
     }
+
+    public int modulo() {
+        return (entier1 % entier2);
+    }
 }

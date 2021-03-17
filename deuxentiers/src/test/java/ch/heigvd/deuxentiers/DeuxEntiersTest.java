@@ -9,4 +9,16 @@ public class DeuxEntiersTest {
         DeuxEntiers septTrois = new DeuxEntiers(7, 3);
         assertEquals(2, septTrois.divise());
     }
+
+    @Test
+    void modulo() {
+        DeuxEntiers septTrois = new DeuxEntiers(7, 3);
+        assertEquals(1, septTrois.modulo());
+    }
+
+    @Test
+    void diviseParZero() {
+        DeuxEntiers septZero = new DeuxEntiers(7, 0);
+        assertThrows(ArithmeticException.class, () -> septZero.divise());
+    }
 }
