@@ -62,4 +62,33 @@ public class DayTest {
 
         assertThrows(NoSpaceException.class, () -> day.findSpace(appointment10));
     }
+
+    @Test
+    void DairyFailureTest(){
+        Day day = new Day(23);
+        Appointment appointment9 = new Appointment("Rdv 9h00", 2);
+        int validatedTime = 0;
+
+        do{
+            try{
+                validatedTime = day.findSpace(appointment9);
+                day.makeAppointment(validatedTime, appointment9);
+                day.showAppointments();
+            }catch(NoSpaceException e){
+                assertTrue(false);
+            }catch (ArrayIndexOutOfBoundsException e){
+                assertTrue(false);
+                validatedTime = -1;
+                System.out.println(e);
+            }
+        }while (validatedTime != -1);
+    }
+
+    @Test
+    void BadBehaviorTest() {
+        Day day = new Day(23);
+        Appointment appointment9 = new Appointment("Rdv 9h00", 2);
+
+        day.makeAppointment(17, appointment9);
+    }
 }

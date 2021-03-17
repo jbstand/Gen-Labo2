@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8485e864-202e-43a7-b452-a881fd5cb847" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java" afterDir="false" />
     </list>
@@ -92,6 +91,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DayTest.BadBehaviorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.heigvd.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.heigvd.diary" />
+      <option name="MAIN_CLASS_NAME" value="ch.heigvd.diary.DayTest" />
+      <option name="METHOD_NAME" value="BadBehaviorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayTest.DairyFailreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.heigvd.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.heigvd.diary" />
+      <option name="MAIN_CLASS_NAME" value="ch.heigvd.diary.DayTest" />
+      <option name="METHOD_NAME" value="DairyFailreTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayTest.DairyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.heigvd.diary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.heigvd.diary" />
+      <option name="MAIN_CLASS_NAME" value="ch.heigvd.diary.DayTest" />
+      <option name="METHOD_NAME" value="DairyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DayTest.FindValidSpaceError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <extension name="coverage">
@@ -111,6 +158,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DayTest" />
+        <item itemvalue="JUnit.DayTest.DairyFailreTest" />
+        <item itemvalue="JUnit.DayTest.BadBehaviorTest" />
+        <item itemvalue="JUnit.DayTest.DairyTest" />
         <item itemvalue="JUnit.DayTest.FindValidSpaceError" />
       </list>
     </recent_temporary>
@@ -123,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616003209191</updated>
-      <workItem from="1616003211457" duration="2910000" />
+      <workItem from="1616003211457" duration="4950000" />
     </task>
     <servers />
   </component>
@@ -146,46 +196,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616003287751" />
-    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1616006040789">
+    <state width="451" height="466" key="DebuggerActiveHint" timestamp="1616007129342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="451" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006040789" />
+    <state width="451" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007129342" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616003220285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616003220285" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1616006086192">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1616007862068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086192" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1616006086191">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007862068" />
+    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1616007862068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1616006086191">
+    <state width="1877" height="383" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007862068" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1616007862068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1616006086191">
+    <state width="1877" height="383" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007862068" />
+    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1616007862068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086191" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616006086818">
+    <state width="1877" height="383" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007862068" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616007701438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086818" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616006086817">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007701438" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616007701438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616006086817">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007701438" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616007701438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616006086817">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007701438" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616007701438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616006086817" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616007701438" />
     <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1616003486599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,5 +244,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="191" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616003271643" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/diary/src/test/java/ch/heigvd/diary/DayTest.java</url>
+          <line>66</line>
+          <properties class="ch.heigvd.diary.DayTest" method="DairyTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="appointments[1]" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
